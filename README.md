@@ -1,5 +1,5 @@
 # usbDeviceWatcher
-Sample project to illustrate crash issue with USB hubs and memory leak.
+Sample project to illustrate crash issue with USB hubs and possible memory leak.
 
 
 Upon building and running this project, connecting, then disconnecting some USB hubs will cause the app to crash. While not for certain, hubs with 7 or more ports that use an external power source seem especially problematic.
